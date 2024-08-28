@@ -1,0 +1,75 @@
+{
+  "navigation": {
+    "help": "Brauchen Sie Hilfe?",
+    "sidebarMenu": {
+      "dashboard": "Dashboard"
+    },
+    "navbarMenu": {
+      "profile": "Profil"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Willkommen! Melden Sie sich bei Ihrem Konto an"
+    },
+    "forgotPassword": {
+      "title": "Passwort vergessen?",
+      "description": "<0>Wir haben Ihnen eine 6-stellige Bestätigungs-E-Mail gesendet.</0> <1>Bitte geben Sie den Code in das folgende Feld ein, um Ihre E-Mail zu bestätigen.</1>",
+      "buttons": {
+        "backButton": "Zurück zur Anmeldung"
+      }
+    },
+    "newPassword": {
+      "title": "Anfrage erfolgreich gesendet",
+      "description": "<0>Wir haben Ihnen eine 6-stellige Bestätigungs-E-Mail gesendet.</0> <1>Bitte geben Sie den Code in das folgende Feld ein, um Ihre E-Mail zu bestätigen.</1>",
+      "buttons": {
+        "backButton": "Zurück zur Anmeldung",
+        "updatePassword": "Passwort aktualisieren"
+      }
+    },
+    "register": {
+      "title": "Willkommen! Legen Sie hier los",
+      "alreadyHaveAccount": "Haben Sie bereits ein Konto? ",
+      "termsCondition": "Durch die Anmeldung akzeptiere ich",
+      "terms": "Allgemeine Geschäftsbedingungen",
+      "and": "und",
+      "privacyPolicy": "Datenschutzbestimmungen"
+    }
+  },
+  "forms": {
+    "buttons": {
+      "forgotPassword": "Passwort vergessen?",
+      "signIn": "Anmelden",
+      "signUp": "Konto erstellen",
+      "sendMail": "E-Mail senden"
+    },
+    "labels": {
+      "firstName": "Vorname",
+      "lastName": "Nachname",
+      "email": "E-Mail",
+      "username": "E-Mail oder Benutzername",
+      "password": "Passwort",
+      "confirmPassword": "Passwort bestätigen",
+      "birthDate": "Geburtsdatum",
+      "country": "Land"
+    },
+    "placeholders": {
+      "firstName": "Geben Sie Ihren Vornamen ein",
+      "lastName": "Geben Sie Ihren Nachnamen ein",
+      "email": "Geben Sie Ihre E-Mail-Adresse ein",
+      "username": "Geben Sie Ihre E-Mail-Adresse oder Ihren Benutzernamen ein",
+      "password": "Geben Sie Ihr Passwort ein",
+      "confirmPassword": "Bestätigen Sie das neue Passwort",
+      "country": "Wählen Sie Ihr Land aus"
+    }
+  },
+  "affiliate": {
+    "status": {
+      "active": "aktiv",
+      "inactive": "inaktiv",
+      "investigate": "untersuchen",
+      "blocked": "gesperrt",
+      "deleted": "gelöscht"
+    }
+  }
+}

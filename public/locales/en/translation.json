@@ -1,0 +1,98 @@
+{
+  "navigation": {
+    "help": "Need help?",
+
+    "sidebarMenu": {
+      "dashboard": "Dashboard"
+    },
+    "navbarMenu": {
+      "profile": "Profile"
+    }
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome! Sign in to your account"
+    },
+    "forgotPassword": {
+      "title": "Forgot your password?",
+      "description": "<0>We’ve send a 6-digit confirmation email to your email.</0> <1>Please enter the code in below box to verify your email.</1>",
+      "buttons": {
+        "backButton": "Return to sign in"
+      }
+    },
+    "newPassword": {
+      "title": "Request sent successfully",
+      "description": "<0>We’ve send a 6-digit confirmation email to your email.</0> <1>Please enter the code in below box to verify your email.</1>",
+      "buttons": {
+        "backButton": "Return to sign in",
+        "updatePassword": "Update Password"
+      }
+    },
+    "register": {
+      "title": "Welcome! Get started here",
+      "alreadyHaveAccount": "Already have an account? ",
+      "termsCondition": "By signing up, I agree to",
+      "terms": "Terms and Service",
+      "and": "and",
+      "privacyPolicy": "Privacy Policy"
+    }
+  },
+  "forms": {
+    "buttons": {
+      "forgotPassword": "Forgot Password?",
+      "signIn": "Sign In",
+      "signUp": "Create Account",
+      "sendMail": "Send Mail"
+    },
+    "labels": {
+      "firstName": "First Name",
+      "lastName": "Last Name",
+      "email": "Email",
+      "username": "Email or Username",
+      "password": "Password",
+      "currentPassword": "Current Password",
+      "confirmEmail": "Confirm Email",
+      "confirmPassword": "Confirm Password",
+      "birthDate": "Birth date",
+      "country": "Country",
+      "address": "Address",
+      "city": "City",
+      "state": "State",
+      "zip": "Zip",
+      "sponsor": "Sponsor",
+      "userType": "User Type",
+      "title": "Title",
+      "companyId": "Company Id",
+      "companyName": "Company Name"
+    },
+    "placeholders": {
+      "firstName": "Enter your First Name",
+      "lastName": "Enter your Last Name",
+      "email": "Enter your email",
+      "username": "Enter your email or username",
+      "password": "Enter your password",
+      "currentPassword": "Enter Current Password",
+      "confirmEmail": "Confirm your email",
+      "confirmPassword": "Confirm your Password",
+      "country": "Select your country",
+      "address": "Enter your address",
+      "city": "Enter your city",
+      "state": "Enter your state",
+      "zip": "Enter your zip",
+      "sponsor": "Enter your sponsor",
+      "userType": "Select user type",
+      "title": "Title",
+      "companyId": "Company Id",
+      "companyName": "Company Name"
+    }
+  },
+  "affiliate": {
+    "status": {
+      "active": "active",
+      "inactive": "inactive",
+      "investigate": "investigate",
+      "blocked": "blocked",
+      "deleted": "deleted"
+    }
+  }
+}
