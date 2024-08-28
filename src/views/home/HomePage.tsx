@@ -2,6 +2,7 @@ import React from 'react'
 import * as yup from 'yup'
 import {useNavigate} from 'react-router-dom'
 import {Box, Typography} from '@mui/material'
+import {UseFormReturn} from 'react-hook-form'
 
 import Card from '@core/Card'
 import routes from 'routes'
@@ -32,7 +33,7 @@ type Destination = {
 
 const HomePage = () => {
   const navigation = useNavigate()
-  const {setApiError, ...methods} = useYupHooks({schema})
+  const {setApiError, ...methods} = useYupHooks<SearchFields & UseFormReturn>({schema})
   const [data, setData] = React.useState(travelConfig)
   const [isOpen, setIsopen] = React.useState(false)
   const [packages, setPackage] = React.useState<Destination>()

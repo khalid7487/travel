@@ -3,6 +3,7 @@ import {Box, Typography} from '@mui/material'
 import {Button} from '@core'
 import NmsLogo from 'images/nms.png'
 import Card from '@core/Card'
+
 import {Grid} from './about.styles'
 
 const aboutInfo = [

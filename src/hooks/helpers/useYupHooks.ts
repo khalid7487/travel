@@ -14,8 +14,8 @@ type YupHooksProps<T extends FieldValues> = {
 
 type UseYupHooksReturns<Tdata extends FieldValues> = {
   setApiError: (props: ApiErrorType) => void
-  }
-// } & UseFormReturn<Tdata>
+  // }
+} & UseFormReturn<Tdata>
 
 const useYupHooks = <Tdata extends FieldValues>({
   mode = 'all',
