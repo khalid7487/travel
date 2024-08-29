@@ -66,7 +66,7 @@ const HomePage = () => {
                 color='success'
                 type='submit'
                 size='small'
-                sx={{width: 200}}
+                sx={{width: 200, color: '#FFFFFF'}}
               >
                 Search
               </Button>

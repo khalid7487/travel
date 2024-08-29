@@ -37,8 +37,6 @@ export type User = {
   accountNonLocked: boolean
 }
 
-export type RefreshTokenResponse = Pick<LoginResponse, 'accessToken' | 'refreshToken'>
-
 export type TableResponse = {
   data: object[]
   meta: {

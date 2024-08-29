@@ -114,7 +114,7 @@ const BookingFormModal = ({data, isOpen, setIsOpen}: BookingFormModalProps) => {
         <Box textAlign='center'>
           {/* <img src={SuccessImg} height={100} width={100} alt='img' /> */}
           <CheckCircleOutlineIcon style={{fontSize: '150px', color: '#01B0FF'}} />
-          <Typography variant='h2' mt={4} color='#7635DC'>
+          <Typography variant='h2' color='#7635DC'>
             Success!!
           </Typography>
         </Box>
