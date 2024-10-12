@@ -4,7 +4,6 @@ import {Typography} from '@mui/material'
 import {useMutation} from '@tanstack/react-query'
 import {useTranslation} from 'react-i18next'
 import {useNavigate} from 'react-router-dom'
-import type {UseFormReturn} from 'react-hook-form'
 
 import routes from 'routes'
 import {Input} from '@core'
@@ -43,13 +42,13 @@ const schema = yup.object().shape({
     .trim(),
 })
 
-type RegisterFields = yup.InferType<typeof schema>
+export type RegisterFields = yup.InferType<typeof schema>
 
 const RegistrationForm: React.FC = (): React.ReactElement => {
   const {t} = useTranslation()
   const navigate = useNavigate()
   const {setAuthToken} = useAuthToken()
-  const {setApiError, ...methods} = useYupHooks<RegisterFields & UseFormReturn>({schema})
+  const {setApiError, ...methods} = useYupHooks<RegisterFields>({schema})
 
   const {mutate} = useMutation<LoginResponse, ApiErrorType, LoginProps>({
     mutationFn: UserApiMethods.register,

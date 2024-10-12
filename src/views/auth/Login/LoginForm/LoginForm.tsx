@@ -4,7 +4,6 @@ import {Typography} from '@mui/material'
 import {useTranslation} from 'react-i18next'
 import {useMutation} from '@tanstack/react-query'
 import {useNavigate} from 'react-router-dom'
-import type {UseFormReturn} from 'react-hook-form'
 
 import {Input} from '@core'
 import routes from 'routes'
@@ -29,7 +28,7 @@ const LoginForm: React.FC = (): React.ReactElement => {
   const {t} = useTranslation()
   const navigate = useNavigate()
   const {setAuthToken} = useAuthToken()
-  const {setApiError, ...methods} = useYupHooks<LoginFields & UseFormReturn>({schema})
+  const {setApiError, ...methods} = useYupHooks<LoginFields>({schema})
 
   const {mutate} = useMutation<LoginResponse, ApiErrorType, LoginProps>({
     mutationFn: UserApiMethods.login,

@@ -3,7 +3,9 @@ import {Typography} from '@mui/material'
 
 import {Form as CoreForm, Button as CoreButton} from '@core'
 
-export const Form = styled(CoreForm)({
+import {RegisterFields} from './RegistrationForm'
+
+export const Form = styled(CoreForm<RegisterFields>)({
   marginTop: 20,
 })
 

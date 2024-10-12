@@ -2,7 +2,9 @@ import {styled} from '@mui/material/styles'
 
 import {Form as CoreForm, Link} from '@core'
 
-export const Form = styled(CoreForm)({
+import {LoginFields} from './LoginForm'
+
+export const Form = styled(CoreForm<LoginFields>)({
   marginTop: 20,
 })
 
