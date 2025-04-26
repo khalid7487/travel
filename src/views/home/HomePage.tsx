@@ -51,7 +51,7 @@ const HomePage = () => {
       <Card isCard>
         <Box mb={6} p={3}>
           <Typography variant='h6' mb={3}>
-            Find travel place:
+            Find Destination:
           </Typography>
           <Form formMethods={methods} onSubmit={handleSearch}>
             <Box
